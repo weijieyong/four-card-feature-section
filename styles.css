@@ -103,9 +103,22 @@ header{
     float: right;
 }
 
+/************* footer ****************/
+footer{
+    padding: 13px;
+}
+
 /* media query */
 @media only screen and (min-width: 1000px){
-    
+    header{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .heading1, .heading2{
+        font-size: 2.5em;
+    }
+
     .heading-p{
         max-width: 600px;
     }
@@ -136,9 +149,4 @@ header{
         transform: translateY(50%);
     }
 
-}
-
-/************* footer ****************/
-footer{
-    padding: 13px;
 }
